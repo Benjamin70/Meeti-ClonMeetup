@@ -3,7 +3,8 @@
 
 .meetis{
     &__heading{
-        text-align: center
+        @include m.heading;
+        margin-bottom: 5rem;
     }
     &__grid{
         @include m.tablet{ 
@@ -17,7 +18,7 @@
 
     &__texto{
         font-size: 1.4rem;
-        line-height: 2.5;
+        line-height: 1.8;
     }
 }
 
